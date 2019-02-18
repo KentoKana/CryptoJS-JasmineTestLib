@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Lab 1</title>	
+	<link rel="stylesheet" href="style.css">	
+	<script src="CryptoJS/rollups/md5.js"></script>
+</head>
+<body>
+	<div class="pageHeader">
+		<h1 class="pageHeader__title">Login Page</h1>
+	</div>
+	<form action="lab1.html" method="POST" class="form">
+		<fieldset>
+			<legend>User Authentication</legend>
+			<div>
+				<label class="form__label" for="form__userName">User Name: </label>
+				<input name="" class="form__input" id="form__userName">
+			</div>
+			<div>
+				<label type="text" class="form__label" for="form__password">Password: </label>
+				<input type="password" class="form__input" id="form__password">
+			</div>
+			<div>
+				<button type="submit" class="form__submit"> Submit</button>
+			</div>
+		</fieldset>
+		<div class="output">
+			<div class="output__userName"></div>
+			<div class="output__password"></div>
+			<div class="output__invalid"></div>
+			<div class="output__valid"></div>
+
+		</div>
+
+
+	</form>
+</body>
+<script src="assign2.js"></script>
+</html>
+
